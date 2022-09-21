@@ -1,3 +1,9 @@
+## In order to run test suite made by Richard's for NordCurrent Interview 
+Run this:
+```
+./vendor/bin/phpunit tests/RichardTest.php --colors
+```
+
 ## Requirements for environment
 
 * Composer 2.*

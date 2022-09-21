@@ -28,4 +28,56 @@ final class Random
 
         return substr($random, 0, $length);
     }
+    //Borrowed for a bit switch case from your source code and put it here for later use, hopefully I don't break the interview task rules :)
+    public static function generateRandomVersion() : string{
+        {
+            $ran = rand(1,3);
+            switch($ran)
+            {
+                case 1:{
+                    return "1.0";
+                    break;
+                }
+                case 2:{
+                    return "1.1";
+                    break;
+                }
+                case 3:{
+                    return "1.2";
+                    break;
+                }
+                default :{
+                    return "1.0";
+                }
+            }
+        }
+    }
+    //Created method to generate random region
+    public static function generateRandomRegion() : string{
+        {
+            $ran = rand(1,4);
+            switch($ran)
+            {
+                case 1:{
+                    return "lt";
+                    break;
+                }
+                case 2:{
+                    return "en";
+                    break;
+                }
+                case 3:{
+                    return "us";
+                    break;
+                }
+                case 4:{
+                    return "fr";
+                    break;
+                }
+                default :{
+                    return "lt";
+                }
+            }
+        }
+    }
 }
