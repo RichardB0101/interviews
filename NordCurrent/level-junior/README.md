@@ -1,4 +1,4 @@
-## In order to run test suite made by Richard's for NordCurrent Interview 
+## In order to run test suite made by Richard for NordCurrent Interview 
 Run this:
 ```
 ./vendor/bin/phpunit tests/RichardTest.php --colors
